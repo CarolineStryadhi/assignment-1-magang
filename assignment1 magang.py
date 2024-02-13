@@ -1,13 +1,13 @@
-def urut_kata(input_string):
-# Klasifikasi kata dalam string jadi list
-    kata = input_stringnya.split()
+def urut_katanya(input_stringnya):
+# Klasifikasi katanya dalam string jadi list
+    katanya = input_stringnya.split()
 
-# Balik urutan list kata
-    urut_berhasil = ' '.join(kata[::-1])
+# Balik urutan list katanya
+    urut_berhasil = ' '.join(katanya[::-1])
 
     return urut_berhasil
 
 # Manggil fungsi
 input_stringnya = "saya sedang makan nasi"
-menghasilkan = urut_kata(input_stringnya)
+menghasilkan = urut_katanya(input_stringnya)
 print(menghasilkan)
