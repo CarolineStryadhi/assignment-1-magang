@@ -3,9 +3,9 @@ def urut_kata(input_string):
     kata = input_stringnya.split()
 
 # Balik urutan list kata
-    urut_done = ' '.join(kata[::-1])
+    urut_berhasil = ' '.join(kata[::-1])
 
-    return urut_terbaik
+    return urut_berhasil
 
 # Manggil fungsi
 input_stringnya = "saya sedang makan nasi"
