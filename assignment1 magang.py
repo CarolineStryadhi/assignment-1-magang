@@ -1,13 +1,13 @@
-def urutan_terbaik_kata(input_string):
+def urut_kata(input_string):
 # Klasifikasi kata dalam string jadi list
-    kata = input_string.split()
+    kata = input_stringnya.split()
 
 # Balik urutan list kata
-    urutan_terbaik = ' '.join(kata[::-1])
+    urut_done = ' '.join(kata[::-1])
 
-    return urutan_terbaik
+    return urut_terbaik
 
 # Manggil fungsi
-input_string = "saya sedang makan nasi"
-hasil = urutan_terbaik_kata(input_string)
-print(hasil)
+input_stringnya = "saya sedang makan nasi"
+menghasilkan = urut_kata(input_stringnya)
+print(menghasilkan)
